@@ -1,0 +1,334 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* color: aliceblue; */
+}
+
+.page{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ForsakenCityPage{
+    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/celeste/f/fd/180124_CI_C1_S11_B.png?width=1280");
+}
+
+#OldSitePage{
+    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/celeste/2/22/180125_CI_C2_S7.png");
+}
+
+#CelestialResortPage{
+    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/celeste/f/f1/180125_CI_C3_S8.png?width=1280");
+}
+
+#GoldenRidgePage{
+    background-image: url("https://preview.redd.it/ekiji4lyv5t51.png?width=1796&format=png&auto=webp&s=3ebd959be17d4e05c5e8e43b6f5f10ada47f6fd4");
+}
+
+#MirrorTemplePage{
+    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/celeste/f/f5/180205_CI_C5_S3_A.png?width=1280");
+}
+
+#ReflectionPage{
+    background-image: url("https://i.redd.it/88dwbb5t0sp61.png");
+}
+
+#SummitPage{
+    background-image: url("https://i.ytimg.com/vi/AV3iw0cpLq8/maxresdefault.jpg");
+}
+
+#CorePage{
+    background-image: url("https://i.ytimg.com/vi/Qxa8tHWe4OY/maxresdefault.jpg");
+}
+
+#FarewellPage{
+    background-image: url("https://i.ytimg.com/vi/w7OfdXYF4XY/maxresdefault.jpg");
+}
+
+#reviewPage{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7e7f3eec-6def-4cec-ae86-1abccc5b82d5/dfxbhj2-61bdde0f-e5ad-4bd3-af6d-d268ea1ab8d9.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdlN2YzZWVjLTZkZWYtNGNlYy1hZTg2LTFhYmNjYzViODJkNVwvZGZ4YmhqMi02MWJkZGUwZi1lNWFkLTRiZDMtYWY2ZC1kMjY4ZWExYWI4ZDkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lXLO5y9NBzXxw62bD2gyMKiYyYoz3y2yQaS-PjtXuCo");
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1297549135823923012/B67392C2C04E18F3416D0A23A9E58F29558C1923/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"); */
+    background-position: center;
+    display: flex;
+}
+
+/* #reviewPage body{
+    width: 100%;
+} */
+
+#wholeContainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding: 5px; */
+    border: 1px solid #000;
+    /* background-color: rgba(0, 83, 138, 1) */
+    /* background-image: url("https://i.pinimg.com/564x/b8/21/3a/b8213aef00421f7c539ba3e1a1b22cbc.jpg"); */
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1297549135823923012/B67392C2C04E18F3416D0A23A9E58F29558C1923/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.levelHeader{
+    box-sizing: border-box;
+    margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding: 5px; */
+    border: 1px solid #000;
+    background-color: rgba(70, 76, 80, 0.2);
+}
+
+.levelContent{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.8;
+    background-color: rgba(54, 48, 54, 0.411);
+    color: #fff;
+    
+}
+
+.levelContent ul{
+    list-style-type: none;
+}
+
+.dropShadowBehaviour:hover {
+    filter: drop-shadow(5px 5px 10px black);
+    -webkit-filter: drop-shadow(5px 5px 10px black);
+}
+
+.blurredImg img {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.blurredImg img:hover {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#loginBanner{
+    /* background-color: rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 10%;
+}
+
+#mainPageHeader{
+    height: 370px;
+    /* background-color: rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+}
+
+#homeBanner{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url("https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/c66e591693fd6e7b26fc5a60efb68817.png");
+    background-size: cover;
+    background-position: center 0px;
+    height: 400px;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+#upperNav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 12px;
+}
+
+
+nav{
+    /* background-color: rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+}
+
+#sideBar {
+    position: fixed;
+    display: flex;
+    /* padding-left: 1%; */
+    border: 1px solid black;
+    right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    top: 50%;
+    width: 15%;
+}
+
+.levelData{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    width: 77%;
+    /* background-color: #1E88E5; */
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    /* margin-left: 15px; */
+}
+
+.levelImageContainer img{
+    border-radius: 10px;
+}
+
+.levelTextContainer{
+    padding-left: 10px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+#wholeLoginDiv {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.loginContainer {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+
+input[type = "text"], input[type = "password"], input[type = "email"]{
+width: 80%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+input[type = "submit"]{
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.region{
+    width: 75%;
+    border-radius: 10px;
+    /* background-color:rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+
+.region p {
+    padding-left: 15px;
+}
+
+.SmoothShiftBehaviour{
+    transition: transform 0.3s ease-in-out;
+}
+
+.SmoothShiftBehaviour:hover {
+    transform: translate(15px, 0px);
+}
+  
+.smoothShiftUpBehaviour:hover {
+    transform: translate(0px, -15px);
+}
+
+.upperNavItem{
+    /* background-color: rgb(48, 65, 194); */
+    /* background-color: rgba(48, 65, 194, .6); */
+    padding: 15px;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#homeContent{
+    display: flex;
+}
+
+#home{
+    width: 96%;
+    border-radius: 10px;
+    /* background-color: rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+.onDarkBackground{
+    color: aliceblue;
+}
+
+.reviewsSection{
+    display: flex;
+    /* background-color:  rgb(48, 65, 194); */
+    background-color: rgba(48, 65, 194, .6);
+    border: 1px solid #000;
+    flex-direction: column;
+    
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 800px){ */
+@media (max-width: 767px){
+   .region{
+    width: 85%;
+    }
+
+    .levelData{
+        flex-direction: column;
+    }
+    
+    #sideBar{
+        display: none;
+    }
+}

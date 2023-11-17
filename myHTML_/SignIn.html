@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Celeste is a masterpiece Login</title>
+</head>
+<body>
+    <div class = "loginPopUp" id = "loginPopUp">
+        <div id = "wholeLoginDiv">
+            <div class = "loginContainer">
+                <span onclick = "NavigateToPage('index.php')">X</span>
+                <h2>Connect</h2>
+                <form action = "FormLogic/SignIn.php" method = "post">
+                    <input type = "text" placeholder = "Nickname" name = "userName" required><br>
+                    <input type = "email" placeholder = "Email" name = "userEmail" required><br>
+                    <input type = "password" placeholder = "Password" name = "userPassword" required><br>
+                    <input type = "submit" name = "signIn" value = "Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src = "Logic/main.js"></script>
+</body>
+</html>
